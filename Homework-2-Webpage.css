@@ -4,6 +4,17 @@
     margin: 2;
     
 }
+.hero {
+    align-content: center;
+    max-width: 100%;
+}
+.img-Users {
+    display: none;
+}
+.img-info {
+    max-width: 100%;
+}
+
 
 body {
     flex: 1 0 200px;
@@ -25,14 +36,9 @@ body {
 
 }
 
-
-.header h1 .seo {
-    color: #4f04ff;
-}
-
-.header div {
+.nav {
     padding-top: 15px;
-    margin-right: 20px;
+    padding-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -86,134 +92,49 @@ a:hover {
 
 .content {
     width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #25bd32;
-}
-
-.benefit-lead .benefit-brand .benefit-cost{
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 .benefit-brand h3 .benefit-cost h3{
-    margin-bottom: 10px;
-    text-align: center;
-}
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .About-me {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    min-height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #4f04ff;
     color: #020002;
+    display: flex;
 }
 
-
-.Work {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #4f04ff;
-    color: #020002;
-}
-
-.Contact-me {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #4f04ff;
-    color: #020002;
-}
 .About-me:hover {
-    background-color: White;
-}
-.Work:hover {
-    background-color: White;
-}
-.Contact-me:hover {
     background-color: White;
 }
 .About-me img {
     max-height: 200px;
 
 }
-
-.Work img {
-    max-height: 200px;
-}
-
-.Contact-me img {
-    max-height: 200px;
-}
-
-.About-me h2 .Work h2 .Contact-me h2{
-    margin-bottom: 20px;
-    font-size: 36px;
+.About-me-text {
+    max-width: 50ch;
 }
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+       
 }
+@media screen and (max-width: 950px) {
+    .nav {
+        float: none;
 
-.footer h2 {
-    font-size: 20px;
-}
-@media screen and (max-width: 992px) {
-    header {
-        background-color: red;
-    }
-
-}
-@media screen and (max-width: 768px) {
-    header {
-        width: 100%;
     }
 }
-@media screen and (max-width: 768px) {
-    main {
-        width: 100%;
+@media screen and (max-width: 710px) {
+    .About-me {
+        flex-direction:column;
+        padding: 50px 10px;
     }
-}
-@media screen and (max-width: 768px) {
-    aside {
-        width: 100%;
-    }
-}
-@media screen and (max-width: 768px) {
-    body {
-        width: 100%;
+    .About-me img {
+        max-width: 200px;
     }
 }
