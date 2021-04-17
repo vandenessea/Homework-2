@@ -4,6 +4,31 @@
     margin: 2;
     
 }
+.dropdown-content li>span {
+   
+}
+
+
+.dropdown-content li>a {
+    font-size: 14px;
+    color: black;
+
+}
+
+/* {
+    box-sizing: content-box;
+}
+
+/*element.style {
+    display: block;
+    width: 150px;
+    left: 48px;
+    top: 170px;
+    height: 311px;
+    transform-origin: 0px 0px;
+    opacity: 1;
+    transform: scaleX(1) scaleY(1);
+}*/
 .hero {
     align-content: center;
     max-width: 100%;
@@ -14,8 +39,12 @@
 .img-info {
     max-width: 100%;
 }
-
-
+.btn, .btn-small, .btn-large {
+    background-color: #4f04ff;
+}
+.dropdown-trigger {
+    cursor: grab;
+}
 body {
     flex: 1 0 200px;
     background-color: #d9dcd6;
@@ -39,7 +68,7 @@ body {
 .nav {
     padding-top: 15px;
     padding-right: 20px;
-    float: right;
+    float: right; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
