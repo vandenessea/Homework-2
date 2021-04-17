@@ -4,10 +4,13 @@
     margin: 2;
     
 }
-.dropdown-content li>span {
-   
+.fas {
+   font-size: 25px;
+    padding: 5px;
 }
-
+.About-me-text {
+    font-size: 20px;
+}
 
 .dropdown-content li>a {
     font-size: 14px;
