@@ -16,9 +16,9 @@
 }*/
 
 .center {
-       margin-left: auto;
-       margin-right: auto;
-       display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 
@@ -70,6 +70,11 @@ body {
     color: #ffffff;
     
 }
+
+/*.h2 {
+    text-align:center;
+}*/
+
 
 .header h1 {
     display: inline-block;
