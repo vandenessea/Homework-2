@@ -4,3 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   navigator.ul[1].li[0]
+
+  $enable-shadows
+
+
+

@@ -11,6 +11,13 @@
 .About-me-text {
     font-size: 20px;
 }
+/*.responsive-video {
+    
+}*/
+
+.center { margin: 0 auto; width: 400px; }
+
+
 
 .dropdown-content li>a {
     font-size: 14px;
