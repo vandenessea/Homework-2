@@ -126,7 +126,9 @@ a:hover {
 
 }
 
+h2 {
 
+}
 
 .float-left {
     float: left;
@@ -152,6 +154,7 @@ a:hover {
     background-color: #4f04ff;
     color: #020002;
     display: flex;
+    flex-direction: row;
 }
 
 .About-me:hover {
@@ -161,9 +164,13 @@ a:hover {
     max-height: 200px;
 
 }
-.About-me-text {
-    max-width: 50ch;
+
+h2 {
+    text-align: center;
 }
+
+
+
 .footer {
     padding: 30px;
     clear: both;

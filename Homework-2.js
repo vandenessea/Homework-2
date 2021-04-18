@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Dropdown.init(elems, options);
   });
 
-  navigator.ul[1].li[0]
+ 
 
   $enable-shadows
 
