@@ -22,6 +22,14 @@
 }
 
 
+.responsive {
+  width: 100%;
+  max-width: 250px;
+  height: 250px;
+}
+
+
+
 .dropdown-content li>a {
     font-size: 14px;
     color: black;
@@ -126,9 +134,7 @@ a:hover {
 
 }
 
-h2 {
 
-}
 
 .float-left {
     float: left;
